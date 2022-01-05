@@ -24,7 +24,7 @@ Route::get('/', function () {
         'page' => 'Home',
         'product' => Product::all()
     ];
-    return view('index', $data);
+    return view('dashboard', $data);
 });
 Route::middleware('auth')->group(function () {
     Route::get('dashboard', [DashboardController::class, 'index']);
