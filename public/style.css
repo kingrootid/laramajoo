@@ -1,0 +1,50 @@
+.bg-red {
+    background-color: red;
+}
+.nav-link {
+    color: white !important;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+.progress {
+    position: relative;
+    width: 100%;
+    border: 1px solid #7f98b2;
+    padding: 1px;
+    border-radius: 3px;
+}
+.bar {
+    background-color: #b4f5b4;
+    width: 0%;
+    height: 25px;
+    border-radius: 3px;
+}
+.percent {
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+    left: 48%;
+    color: #7f98b2;
+}
+.product {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.product img {
+    width: 20vh;
+    margin: auto;
+}
+.product h5 {
+    text-align: center;
+}
+.product h6 {
+    text-align: center;
+}
